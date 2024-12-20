@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Flame docs",
-  base: '/Useful-knowledge-of-Flame/',
+  base: '/docs/',
   outDir: 'docs',
   head: [
     ['link', { rel: 'icon', href: '/Useful-knowledge-of-Flame/favicon.ico' }]
