@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/docs/',
   outDir: 'docs',
   head: [
-    ['link', { rel: 'icon', href: '/Useful-knowledge-of-Flame/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/docs/favicon.ico' }]
   ],
   titleTemplate: ':title - Flame',
   description: 'Flame',
