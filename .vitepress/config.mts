@@ -2,18 +2,31 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "Flame docs",
   base: '/Useful-knowledge-of-Flame/',
   outDir: 'docs',
-  head: [['link', { rel: 'icon', href: '/Useful-knowledge-of-Flame/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/Useful-knowledge-of-Flame/favicon.ico' }]
+  ],
+  titleTemplate: ':title - Flame',
+  description: 'Flame',
   themeConfig: {
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    externalLinkIcon: true,
     // https://vitepress.dev/reference/default-theme-config
+    editLink: {
+      pattern: 'https://github.com/fslflame/Useful-knowledge-of-Flame',
+      text: '在 GitHub 上编辑此页面'
+    },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '一些有用的知识', link: '/hodgepodge/' },
+      { text: 'React', link: '/react/' }
     ],
-    logo: './public/logo.jpg',
+    logo: '/logo.jpg',
     search: {
       provider: 'local',
     },
@@ -26,20 +39,24 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: 'Examples',
+        text: '一些有用的知识',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '瞅瞅', link: '/hodgepodge/' },
         ],
-        collapsed: true
+      },
+      {
+        text: 'React',
+        items: [
+          { text: '简介', link: '/react/' },
+          { text: 'useState', link: '/react/useState' },
+        ],
       }
     ],
     outline: {
-      label: '牛号'
+      label: '文章目录'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/fslflame/Useful-knowledge-of-Flame' },
     ],
     footer: {
       message: 'Released under the MIT License.',
