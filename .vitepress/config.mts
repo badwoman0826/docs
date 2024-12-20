@@ -23,8 +23,8 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: '一些有用的知识', link: '/hodgepodge/' },
-      { text: 'React', link: '/react/' }
+      { text: '一些有用的知识', link: '/src/hodgepodge/' },
+      { text: 'React', link: '/src/react/' }
     ],
     logo: '/logo.jpg',
     search: {
@@ -41,14 +41,14 @@ export default defineConfig({
       {
         text: '一些有用的知识',
         items: [
-          { text: '瞅瞅', link: '/hodgepodge/' },
+          { text: '瞅瞅', link: '/src/hodgepodge/' },
         ],
       },
       {
         text: 'React',
         items: [
-          { text: '简介', link: '/react/' },
-          { text: 'useState', link: '/react/useState' },
+          { text: '简介', link: '/src/react/' },
+          { text: 'useState', link: '/src/react/useState' },
         ],
       }
     ],

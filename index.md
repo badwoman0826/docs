@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 瞅瞅一些有用的知识？👆
-      link: /hodgepodge/
+      link: /src/hodgepodge
     - theme: alt
       text: React
-      link: /react/
+      link: /src/react/
 
 features:
   - icon:
@@ -26,6 +26,6 @@ features:
       src: /react.png
     title: React知识点~
     details: 记录中..
-    link: /react/
+    link: /src/react/
     linkText: "Go"
 ---
