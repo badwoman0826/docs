@@ -6,6 +6,7 @@ export default defineConfig({
   description: "A VitePress Site",
   base: '/Useful-knowledge-of-Flame/',
   outDir: 'docs',
+  head: [['link', { rel: 'icon', href: '/Useful-knowledge-of-Flame/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
