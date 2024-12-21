@@ -11,20 +11,21 @@
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 const { Layout } = DefaultTheme;
-// @ts-ignore
 import { nextTick, provide, ref, watch } from "vue";
 
 const { isDark } = useData();
-const imageSrcRef = ref<HTMLElement>(null);
+const imageSrcRef = ref<HTMLElement | null>(null);
 const mouseEnter = () => {
-  const previousSibling = imageSrcRef.value.previousElementSibling;
+  const previousSibling = imageSrcRef.value
+    ?.previousElementSibling as HTMLElement;
   previousSibling.style.backgroundImage =
     "linear-gradient(-45deg, #bd34fe, #41d1ff)";
   previousSibling.style.transition = "all .3s";
   previousSibling.style.filter = "blur(40px)";
 };
 const mouseleave = () => {
-  const previousSibling = imageSrcRef.value.previousElementSibling;
+  const previousSibling = imageSrcRef.value
+    ?.previousElementSibling as HTMLElement;
   previousSibling.style.transition = "all .3s";
   previousSibling.style.backgroundImage =
     "linear-gradient(-45deg, #bd34fe, #41d1ff)";
@@ -52,8 +53,8 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
       Math.max(y, innerHeight - y)
     )}px at ${x}px ${y}px)`,
   ];
-
-  await document.startViewTransition(async () => {
+  const doc = document as any;
+  await doc.startViewTransition(async () => {
     isDark.value = !isDark.value;
     await nextTick();
   }).ready;

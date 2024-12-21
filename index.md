@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 瞅瞅一些有用的知识？👆
-      link: /src/hodgepodge
+      link: /src/hodgepodge/
     - theme: alt
       text: React
       link: /src/react/
