@@ -28,7 +28,7 @@ The count is: {{ count }}
   <em>77777777777</em>
 </div>
 <em>999999</em>
-        <Modal />
+        <Modal age="5555566666" />
 
 <CustomComponent />
 <ClientOnly>

@@ -1,13 +1,16 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, defineProps } from "vue";
 import { fun } from "./a";
 const showModal = ref(false);
 const f = fun({ a: 123 });
 console.log(f);
+const props = defineProps<{ age: string }>();
 </script>
 
 <template>
-  <button class="modal-button" @click="showModal = true">Show Modal</button>
+  <button class="modal-button" @click="showModal = true">
+    Show Modal{{ props.age }}
+  </button>
 
   <Teleport to="body">
     <Transition name="modal">

@@ -1,4 +1,5 @@
 <template>
+  <Modal age="100000" />
   <div class="demo" @click="add">
     react demo
     <p>123</p>
@@ -9,6 +10,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from "vue";
+import Modal from "../components/Modal.vue";
 const list = ref([
   {
     name: "react demo",
