@@ -3,7 +3,6 @@ import { ref, defineProps } from "vue";
 import { fun } from "./a";
 const showModal = ref(false);
 const f = fun({ a: 123 });
-console.log(f);
 const props = defineProps<{ age: string }>();
 </script>
 
