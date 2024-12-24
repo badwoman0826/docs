@@ -41,7 +41,8 @@ export default defineConfig({
       {
         text: '一些有用的知识',
         items: [
-          { text: '瞅瞅', link: '/src/hodgepodge/' },
+          { text: '疑难杂症', link: '/src/hodgepodge/' },
+          { text: 'md语法', link: '/src/md/' },
         ],
       },
       {
