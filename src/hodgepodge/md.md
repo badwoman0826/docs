@@ -392,6 +392,14 @@ Hello {{ 1 + 1 }}
 `[链接的文本](链接地址)`  
 假设现在处于 `md/index.md` 文件中：
 
+ <Badge type="info" text="default" />
+
+ <Badge type="tip" text="^1.9.0" />
+
+ <Badge type="warning" text="beta" />
+
+<Badge type="danger" text="caution">发表 </Badge>
+
 **输入**
 
 ```
@@ -409,7 +417,7 @@ Hello {{ 1 + 1 }}
 
 去 index [Go index](/)  
 去 react [Go react](/src/react/)  
-去 #表格 [Go Table](./#表格)  
+去 #emoji [Go emoji](./md.md#emoji-🎉)  
 去 react/useState [Go useState](../react/useState.md)  
 去 更新 state 中的数组 [Go react useState](../react/useState.md#更新-state-中的数组)
 
@@ -542,7 +550,7 @@ Hello {{ 1 + 1 }}
 | [菜鸟教程](https://www.runoob.com) | `help me please` | **粗体文本** |
 | Paragraph | `` Use `code` in your Markdown file. `` | ![加载失败时的文本](/react.png "RUNOOB") |
 
-## Emoji 🎉
+## Emoji :tada:
 
 **输入**
 
@@ -552,6 +560,7 @@ Hello {{ 1 + 1 }}
 ```
 
 **输出**
-:tada: :100:
-
+:tada: :100:  
 [emoji 大全](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs)
+
+<!--@include: ../team/index.md-->

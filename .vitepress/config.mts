@@ -22,8 +22,13 @@ export default defineConfig({
       text: '在 GitHub 上编辑此页面'
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: '一些有用的知识', link: '/src/hodgepodge/' },
+      {
+        text: '一些有用的知识',
+        items: [
+          { text: '疑难杂症', link: '/src/hodgepodge/' },
+          { text: 'md语法', link: '/src/hodgepodge/md' },
+        ],
+      },
       { text: 'React', link: '/src/react/' }
     ],
     logo: '/logo.jpg',
@@ -42,7 +47,7 @@ export default defineConfig({
         text: '一些有用的知识',
         items: [
           { text: '疑难杂症', link: '/src/hodgepodge/' },
-          { text: 'md语法', link: '/src/md/' },
+          { text: 'md语法', link: '/src/hodgepodge/md' },
         ],
       },
       {
