@@ -1,7 +1,3 @@
----
-outline: "deep"
----
-
 # md 语法
 
 ## 标题
@@ -266,8 +262,6 @@ _斜体文本_
 \```
 :::
 
-````
-
 ```js
 export const fun = (value) => {
   const obj = {
@@ -275,7 +269,7 @@ export const fun = (value) => {
   };
   return obj;
 };
-````
+```
 
 ### jsx
 

@@ -28,4 +28,9 @@ features:
     details: 记录中..
     link: /src/react/
     linkText: "Go"
+  - icon: ""
+    title: 一些好用的第三方库和网站
+    details: 记录中..
+    link: /src/hodgepodge/library
+    linkText: "Go"
 ---

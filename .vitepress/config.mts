@@ -25,7 +25,8 @@ export default defineConfig({
       {
         text: '一些有用的知识',
         items: [
-          { text: '疑难杂症', link: '/src/hodgepodge/' },
+          { text: '小知识', link: '/src/hodgepodge/' },
+          { text: '一些好用的第三方库和网站', link: '/src/hodgepodge/library' },
           { text: 'md语法', link: '/src/hodgepodge/md' },
         ],
       },
@@ -46,7 +47,8 @@ export default defineConfig({
       {
         text: '一些有用的知识',
         items: [
-          { text: '疑难杂症', link: '/src/hodgepodge/' },
+          { text: '小知识', link: '/src/hodgepodge/' },
+          { text: '一些好用的第三方库和网站', link: '/src/hodgepodge/library' },
           { text: 'md语法', link: '/src/hodgepodge/md' },
         ],
       },
@@ -59,6 +61,7 @@ export default defineConfig({
       }
     ],
     outline: {
+      level: 'deep',
       label: '文章目录'
     },
     socialLinks: [
