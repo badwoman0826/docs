@@ -15,6 +15,12 @@ https://www.moqu8.com/oltools/clip-path.htm
 https://codepen.io/argyleink/pen/rNQZbLr  
 https://simple-set-demos.glitch.me/6-expanding-image
 
+## vue3 好用的动画库
+
+| 名称            | 链接                                                                                                  |
+| --------------- | ----------------------------------------------------------------------------------------------------- |
+| @vueuse/motionr | https://motion.vueuse.org/ features/variants#this-element-will-fade-in-smoothly-after-100ms-%EF%B8%8F |
+
 ## vue3 好用的日期组件库
 
 | 名称               | 链接                             |

@@ -30,7 +30,7 @@ export default defineConfig({
           { text: 'md语法', link: '/src/hodgepodge/md' },
         ],
       },
-      { text: 'React', link: '/src/react/' }
+      { text: 'React', link: '/src/react/jsx' }
     ],
     logo: '/logo.jpg',
     search: {
@@ -55,7 +55,7 @@ export default defineConfig({
       {
         text: 'React',
         items: [
-          { text: '简介', link: '/src/react/' },
+          { text: 'jsx底层渲染机制', link: '/src/react/jsx' },
           { text: 'useState', link: '/src/react/useState' },
         ],
       }

@@ -12,7 +12,6 @@ import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 const { Layout } = DefaultTheme;
 import { nextTick, provide, ref, watch } from "vue";
-
 const { isDark } = useData();
 const imageSrcRef = ref<HTMLElement | null>(null);
 const mouseEnter = () => {
