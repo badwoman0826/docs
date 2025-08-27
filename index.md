@@ -14,7 +14,7 @@ hero:
       link: /src/hodgepodge/
     - theme: alt
       text: React
-      link: /src/react/
+      link: /src/react/jsx
 
 features:
   - icon:
@@ -26,7 +26,7 @@ features:
       src: /react.png
     title: React知识点~
     details: 记录中..
-    link: /src/react/
+    link: /src/react/jsx
     linkText: "Go"
   - icon: ""
     title: 一些好用的第三方库和网站

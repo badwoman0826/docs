@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { VPTeamMembers } from "vitepress/theme";
-import { defineProps, withDefaults } from "vue";
 import type { Props } from "./type";
 const props = withDefaults(defineProps<Props>(), {
   size: "medium",

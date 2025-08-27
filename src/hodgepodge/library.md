@@ -111,4 +111,38 @@ https://simple-set-demos.glitch.me/6-expanding-image
 | ------- | ---------------------- |
 | echarts | https://www.isqqw.com/ |
 
+## ESLint 配置检查器
+
+https://eslint-config.antfu.me/rules
+
+## Vue Macros
+
+https://vue-macros.dev/
+
+## React 用于构建基于节点的编辑器和交互式图表
+
+https://reactflow.dev/
+
+## React Hooks
+
+https://ahooks.js.org/zh-CN/
+
+## React markdown
+
+https://github.com/remarkjs/react-markdown?tab=readme-ov-file#use
+
+## React 动画库
+
+| 名称         | 链接                                              |
+| ------------ | ------------------------------------------------- |
+| react-spring | https://www.react-spring.dev/docs/getting-started |
+
+## 前端面试
+
+https://www.mianshiya.com/
+
+https://fe.ecool.fun/
+
+https://vue3js.cn/interview/vue/spa.html#%E4%B8%80%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AFspa 
+
 <!--@include: ../team/index.md-->

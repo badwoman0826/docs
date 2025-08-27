@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, defineProps } from "vue";
+import { ref } from "vue";
 import { fun } from "./a";
 const showModal = ref(false);
 const f = fun({ a: 123 });

@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-
+import definePlugin from '../plugins'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Flame docs",
@@ -70,6 +70,11 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You'
+    }
+  },
+  markdown: {
+    config: (md) => {
+      md.use(definePlugin)
     }
   }
 })
